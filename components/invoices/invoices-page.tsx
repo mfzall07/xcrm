@@ -231,7 +231,7 @@ export function InvoicesPage() {
       <div className="flex items-center justify-between">
         <h2 className="text-3xl font-bold tracking-tight">Invoices & Billing</h2>
         <div className="flex items-center gap-2">
-          <Tabs defaultValue="all" className="w-[400px]" onValueChange={setActiveTab}>
+          <Tabs defaultValue="all" className="w-full" onValueChange={setActiveTab}>
             <TabsList>
               <TabsTrigger value="all">All Invoices</TabsTrigger>
               <TabsTrigger value="paid">Paid</TabsTrigger>
